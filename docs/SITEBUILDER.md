@@ -85,9 +85,13 @@ command line arguments:
         This command line prints out this help message and terminates.
 
     /version
+```
 
+```
 Configuration files names and content:
+```
 
+```
     SiteConfig.txt:
     
         The site config file contains a a list of line seperated sites that
@@ -111,7 +115,9 @@ Configuration files names and content:
 1, 66167acf-2484-4244-92fb-a2ffaa5aebd2, Windows-Desktops, All Windows Desktops, 0
 0, 3faa8b67-250b-42ad-8186-fe2f49a9e707, Windows-64-bit, All Windows 64-bit systems, 0
 1, 8afb27a1-5dc7-43ca-a88c-8391252f5b7b, Windows-32-bit, All Windows 32-bit systems, 0
-    
+```
+
+``` 
     SiteLayout.txt:
 
 microsoft-2015-april, ms15-031, ms15-032, ms15-033, ms15-034, ms15-035, ms15-036, ms15-037, ms15-038, ms15-039, ms15-040, ms15-041, ms15-042
