@@ -1,0 +1,309 @@
+<html>
+<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app58.us.archive.org';v.server_ms=559;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/static/js/ait-client-rewrite.js?v=1542068202.0" charset="utf-8"></script>
+<script type="text/javascript">
+WB_wombat_Init('https://web.archive.org/web', '20130825100931', 'patchtrending.15-cloud.fr:80');
+</script>
+<script type="text/javascript" src="/static/js/wbhack.js?v=1542068202.0" charset="utf-8"></script>
+<script type="text/javascript">
+__wbhack.init('https://web.archive.org/web');
+</script>
+<link rel="stylesheet" type="text/css" href="/static/css/banner-styles.css?v=1542068202.0" />
+<link rel="stylesheet" type="text/css" href="/static/css/iconochive.css?v=1542068202.0" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>{CWoC} Patch Trending mini-site</title>
+		<script type="text/javascript" src="https://web.archive.org/web/20130825100931js_/https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			var bulletin = window.location.search.substring(1).toUpperCase();
+
+			function loadjs(filename){
+				var fileref = document.createElement('script')
+				fileref.setAttribute("type","text/javascript")
+				fileref.setAttribute("src", filename)
+				
+				if (typeof fileref!="undefined")
+					document.getElementsByTagName("head")[0].appendChild(fileref)
+			}
+			
+			function escapeBulletin(b) {
+				var t = b.replace("-", "_");
+				return t.replace(".", "_");
+			}
+			 
+			function drawChart() {
+				var options1 = { title: '', vAxis: { maxValue : 100, minValue : 0 }};
+				var options2 = { title: '', vAxis: { minValue : 0 }};
+
+				b = escapeBulletin(bulletin);
+
+				var d_0 = google.visualization.arrayToDataTable(window["MS13_058_0"]);
+				var g_0 = new google.visualization.LineChart(document.getElementById('div_0'));
+				g_0.draw(d_0, options1);
+
+				var d_1 = google.visualization.arrayToDataTable(window["MS13_058_1"]);
+				var g_1 = new google.visualization.LineChart(document.getElementById('div_1'));
+				g_1.draw(d_1, options2);
+			}
+
+			loadjs("javascript/ms13_058_0.js");
+			loadjs("javascript/ms13_058_1.js");
+
+			google.load("visualization", "1", {packages:["corechart"]});
+			google.setOnLoadCallback(drawChart);
+
+		</script>
+</head>
+<body id="top" style="width: 1000px; background: url('https://web.archive.org/web/20130825100931im_/http://aila.15-cloud.fr/images/cloud3.png') no-repeat fixed left;"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/timestamp.js?v=1542068202.0" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/graph-calc.js?v=1542068202.0" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/auto-complete.js?v=1542068202.0" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/toolbar.js?v=1542068202.0" charset="utf-8"></script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+.wb-autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.wb-autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.wb-autocomplete-suggestion b { font-weight: bold; }
+.wb-autocomplete-suggestion.selected { background: #f0f0f0; }
+</style>
+<div id="wm-ipp" lang="en" style="display:none;direction:ltr;">
+<div style="position:fixed;left:0;top:0;right:0;">
+<div id="wm-ipp-inside">
+  <div style="position:relative;">
+    <div id="wm-logo" style="float:left;width:130px;padding-top:10px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a>
+    </div>
+    <div class="r" style="float:right;">
+      <div id="wm-btns" style="text-align:right;height:25px;">
+                  <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a href="#"
+             onclick="__wm.saveSnapshot('http://patchtrending.15-cloud.fr/', '20130825100931')"
+             title="Share via My Web Archive"
+             id="wm-save-snapshot-open"
+          >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php"
+             title="Sign In"
+             id="wm-sign-in"
+          >
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        	<a href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	<a id="wm-tb-close" href="#close" onclick="__wm.h(event);return false;" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" style="text-align:right;">
+	<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://web.archive.org/web/20130825100931/http://patchtrending.15-cloud.fr:80/', '', 'height=400,width=600'); return false;" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	<a href="#" onclick="window.open('https://twitter.com/intent/tweet?text=https://web.archive.org/web/20130825100931/http://patchtrending.15-cloud.fr:80/&amp;via=internetarchive', '', 'height=400,width=600'); return false;" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+    </div>
+    <table class="c" style="">
+      <tbody>
+	<tr>
+	  <td class="u" colspan="2">
+	    <form target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://patchtrending.15-cloud.fr/" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20130825100931" /><input type="submit" value="Go" /></form>
+	  </td>
+	  <td class="n" rowspan="2" style="width:110px;">
+	    <table>
+	      <tbody>
+		<!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+		<tr class="m">
+		  <td class="b" nowrap="nowrap">Jul</td>
+		  <td class="c" id="displayMonthEl" title="You are here: 10:09:31 Aug 25, 2013">AUG</td>
+		  <td class="f" nowrap="nowrap">Sep</td>
+		</tr>
+		<!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+		<tr class="d">
+		  <td class="b" nowrap="nowrap"><img src="/static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" /></td>
+		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 10:09:31 Aug 25, 2013">25</td>
+		  <td class="f" nowrap="nowrap"><img src="/static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0" /></td>
+		</tr>
+		<!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+		<tr class="y">
+		  <td class="b" nowrap="nowrap">2012</td>
+		  <td class="c" id="displayYearEl" title="You are here: 10:09:31 Aug 25, 2013">2013</td>
+		  <td class="f" nowrap="nowrap">2014</td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="s">
+	    	    <div id="wm-nav-captures">
+	      	      <a class="t" href="/web/20130825100931*/http://patchtrending.15-cloud.fr/" title="See a list of every capture for this URL">1 capture</a>
+	      <div class="r" title="Timespan for captures of this URL">25 Aug 2013</div>
+	      </div>
+	  </td>
+	  <td class="k">
+	    <a href="" id="wm-graph-anchor">
+	      <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+		<canvas id="wm-sparkline-canvas" width="575" height="27" border="0"></canvas>
+	      </div>
+	    </a>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+    <div style="position:absolute;bottom:0;right:2px;text-align:right;">
+      <a id="wm-expand" class="wm-btn wm-closed" href="#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+            <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/static/images/loading.gif" alt="loading" /></div>
+    </div>
+  </div></div></div></div><script type="text/javascript">
+__wm.bt(575,27,25,2,"web","http://patchtrending.15-cloud.fr/","2013-08-25",1996);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+<h2>Welcome to the {CWoC}Patch Trending mini-site.</h2>
+<p>This site contains samples, release notes and extra documentation that canont be released on Symantec Connect easily. For the stable Patch Trending report and the Site Builder, please refer to <a href="https://web.archive.org/web/20130825100931/http://www.symantec.com/connect">Symantec Connect</a></p>
+<p>Content:</p>
+<ul>
+<li><a href="#features">Features</a></li>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#samples">Patch Trending samples</a></li>
+<li><a href="#releases">Release notes</a></li>
+<li><a href="#downloads">Downloads</a></li>
+<li><a href="#development">Development</a></li>
+<li><a href="#samplesite">Complete sample site</a></li>
+</ul>
+<h2 style="text-align: center">Update: A sample site is now available: you can <a href="sample-site/">jump to it</a> right now!!!</h2>
+<h3 id="features">Features</h3>
+<p>The Patch Trending site builder generates static web-site to visualise Patch Compliance Trending Data stored on a Symantec_CMDB database. It has the the following attributes:</p>
+<ul>
+<li>A landing page showing:
+<ul><li>global compliance graphs</li>
+<li>a bulletin search function</li>
+<li>link to custom compliance views</li></ul>
+<li>a dynamic page (html + javascript) to quickly acces compliance per bulletin</li>
+<li>static pages to show updates details per bulletins</li>
+<li>Custom compliance view, which is a set fully custom pages to show groups of bulletins graphs</li>
+<li>Troubleshooting pages listing "bottom-10-compliance" by bulletin and "top-10-vulnerable" bulletins</li>
+</ul>
+<h4><a href="#top">Top</a></h4>
+<h3 id="prerequisites">Prerequisites</h3>
+A mechansim to do Patch trending data collection is required, as the tool only tries to get data from a table named "TREND_WindowsCompliance_ByUpdate". Such mechanism already exist on Symantec Connect:
+<a href="https://web.archive.org/web/20130825100931/http://www.symantec.com/connect/articles/adding-patch-compliance-trending-capacity-smp-simple-running-report-daily-d">Adding Patch Compliance Trending Capacity to SMP is as Simple as Running a Report Daily :D</a>
+<h4><a href="#top">Top</a></h4>
+<h3 id="usage">Usage</h3>
+<p>We have kept the tool to the simplest possible usage: it accepts 1 command line argument &lt;site-layout-path&gt; and if the argument is not provided we will try to load the filesite-layout.txt from the working directory.</p>
+<p>So here is the complete list of valid invocations:</p>
+<pre>
+	sitebuilder
+	sitebuilder &lt;site-layout-filepath&gt;
+</pre>
+<p>The site layout file format use comma seperated value (with or without spaces) with the first entry being the page name and following entries being bulletins to be added on the page. If the bulletin name is invalid no page will be generated.</p>
+<p>A sample site-layout page is available on the <a href="downloads/site-layout.txt">downloads</a> section.
+<h4><a href="#top">Top</a></h4>
+<h3 id="samples">Patch Trending Samples</h3>
+If you want to skip the talking and go straight to the sample, <a href="#sample">click here</a> :D.
+<p>This sample depict a perfect set of curves for an hypothetic release of MS13-058. The bulletin was
+ released by Microsoft in July 2013 and was activated on Patch Management on the 13th. The Applicable
+ curve is a little slow compared to what we normally see in large production environment (the Patch 
+Assesment Scan returns information for most of the managed estate (75%) with 3~4 days). But ideally, 
+with most of the estate operational (i.e. not off like during the Summer holidays) the Patch Compliance
+ level should reach the 75% quickly and then 85~90% before flattening out a little for the last 5~9% to
+ install the update(s).<p>
+<p>And yes, this implies that 95-99% compliance is the desired goal for Windows updates. Remains to 
+ascertain in your environment what the standard pattern to get there really is.</p>
+<b><i>Note to the reader!</i></b> You are more than welcome to submit sample data to be included in
+ this site. This would allow us to spotlight standard trends and how well the software performance (Patch Management Solution) in certain environments. If you want to submit data, please send a direct message to ludovic_ferre on Symantec Connect or email me (@symantec.com).
+<blockquote id="sample">
+	<h1 style="text-align: center">MS13-058</h1>
+	<h2>Installed versus Applicable</h2>
+	<div id="div_1" style="width: 800px; height: 300px;"></div>
+	<h2>Compliance status in %</h2>
+	<div id="div_0" style="width: 800px; height: 300px;"></div>
+</blockquote>
+<h4><a href="#top">Top</a></h4>
+<h3 id="releases">Release Notes</h3>
+<h4>Release 9</h4>Fixed the landing page search function. It will now only redirect to the getbulletin.html page if we can find data for the user input (bulletin name).
+<h4>Release 8c</h4>Added compliance by computer graphics. This is a single graphs that shows on the landing page if you have enabled Compliance by Computer trending reports (awaiting release here on Connect). The graphs is of Candlestick type and shows data as illustrated above. With enough trending done you will see single line going thru the boxes. This is because we display the historical low, histroical high and changes since the previous data capture.
+<h4>Release 6</h4>
+<ul>
+<li>Version 6c: Fixed a problem with Internet Explorer support. The pages now render properly for IE 8.0 and above. It may work with IE 7 but was not tested yet.</li>
+<li>Version 6b: Switched the compliance data to be computed from the installed versus applicable datasets, thus reducing the amount of SQL queries executed by half.</li>
+<li>Version 6: Introduced vulnerable count on the Installed vers Applicable graphs. This gives us 3 lines (curves) that are easy to comprehend as you can see from the sample above.</li>
+</ul>
+<h4>Release 5</h4>
+<ul><li>Version 5b: Corrected some performance issues from the previous build and added instrumentation.
+The site bulder now logs entry in the Altiris Logs and will indicate the count of html and js pages 
+generated as well as the count of SQL queries it ran. During the performance issue troubleshooting we
+considered using a single Databasecontext entry but this was a wrong lead. The problem was database
+performance as the use of code based stop watch indicated. This was fixed by a non-clustered index on the
+table to keep track of data by updates.</li>
+<li>Version 5: Refactored the graph per update generation. Added the link to the bulletin update page on the bulletin view and on the various aggregate pages.</li></ul>
+<h4>Release 4</h4> Introduced the Updates per bulletin pages. This pages are crafted for all the bulletins
+found in the trending table, and each page is named after the bulletin (escaped by replacing dot and
+hypens with underscore).</p>
+<h4>Release 3</h4> Introduced the global compliance graphs on the landing page. This makes the first look at the site very powerful, as we get compliance levels for the entire estate. </p>
+<p>There were no prior release (or production use) of the tool. </p>
+<h4><a href="#top">Top</a></h4>
+<h3 id="downloads">Downloads</h3>
+Downloads are release on Symantec Connect: <a href="https://web.archive.org/web/20130825100931/https://www-secure.symantec.com/connect/downloads/cwoc-patch-trending-sitebuilder">{CWoC} Patch Trending SiteBuilder download</a>.
+<h4><a href="#top">Top</a></h4>
+<h3 id="development">Development</h3>
+<p>This tool was writen in a couple of weeks (it was started on 2013-08-02 and version 0.6.6c was uploaded on 2013-08-18). The process started with a blank html page, then a base page to display compliance graphs from a static javascript array and it built up from there, mainly to be used at a customer site where I had been collecting data for just about a month but still had no satisfying visualization of the data (I have line chart reports available from the SMP but they cannot be aggregated onto a single page and I could not get them to display multiple lines properly).</p>
+<p>The design philosophy is to keep the tool as efficient as possible and to generate a static site, i.e. a site that does not require database access. This is because the Patch Trending data collection happens once per day only, and I started generating bulletin views only (although the data collection is done at the update level) - so writing a very fast web-site made (and still makes) more sense than building a dynamic site. Also the site being totally build from the executable means it can reside in secured or open part of the SMP server equally (or be syncrhonsied to another web-server for any purposes)..<p>
+<p>Past the decision to go static, it was then very simple to craft the site builder and extend it with the various releases. Each bulletin has a pair of data file that contain a javascript array. This array is used by the Google Chart API to render the graphs in a couple of div elements. Then we have a last javascript file to command the Google API to render the graph from the loaded data files. Adding pairs of graphs into a single page is done via a string builder.<p>
+<p>The source code is publicly available on Github: <a href="https://web.archive.org/web/20130825100931/https://github.com/ludovicferre/patchtrending">https://github.com/ludovicferre/patchtrending</a></p>
+<h4><a href="#top">Top</a></h4>
+<h3 id="samplesite"><a href="sample-site"/>Complete sample site</a></h3>
+A complete sample site is available <a href="sample-site">here</a>. Note that the dataset was computed, so it is looking very good - and better than what I would expect to see in real life.
+<h4><a href="#top">Top</a></h4>
+</body>
+<!--
+     FILE ARCHIVED ON 10:09:31 Aug 25, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:59:24 Nov 18, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  LoadShardBlock: 149.558 (3)
+  esindex: 0.008
+  captures_list: 165.303
+  CDXLines.iter: 11.493 (3)
+  PetaboxLoader3.datanode: 397.074 (4)
+  exclusion.robots: 0.497
+  exclusion.robots.policy: 0.478
+  RedisCDXSource: 0.923
+  PetaboxLoader3.resolve: 95.6
+  load_resource: 375.416
+-->
