@@ -124,7 +124,7 @@ namespace Symantec.CWoC.PatchTrending {
 
 	class SiteBuilder {
 
-		public static string version = "version 17";
+		public static string version = "version 18";
 		private StringBuilder SiteMap;
 		private bool WriteAll;
 		private string CollectionGuid;
